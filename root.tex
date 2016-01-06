@@ -1,3 +1,4 @@
+
 \documentclass[svgnames,10pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage[T1]{fontenc}
@@ -24,22 +25,22 @@
 \makeatother
 
 % Use fancy for non-title pages
-\usepackage{fancyhdr}
-\fancyhead{}
-\fancyfoot{}
-\cfoot{\pageoflastpage}
-\pagestyle{fancy}
+% \usepackage{fancyhdr}
+% \fancyhead{}
+% \fancyfoot{}
+% \cfoot{\pageoflastpage}
+% \pagestyle{fancy}
 
 \usepackage{xspace}
 
 \usepackage[shortlabels]{enumitem}
 \usepackage{graphicx}
 \usepackage{varioref}
-\usepackage[%
-        colorlinks=false,urlcolor=,
-        pdfpagelabels=true,hypertexnames=true,
-        plainpages=false,naturalnames=true,
-        ]{hyperref}
+% \usepackage[%
+%         colorlinks=false,urlcolor=,
+%         pdfpagelabels=true,hypertexnames=true,
+%         plainpages=false,naturalnames=true,
+%         ]{hyperref}
 %
 \usepackage{url}
 \newcommand\doilink[1]{\href{http://dx.doi.org/#1}{#1}}
@@ -75,29 +76,36 @@
 \def\endbibsection{\oldendbibsection\vspace{-.6\baselineskip}}
 \makeatother
 
-\title{%
-        \vspace{-2\baselineskip}
-            \normalsize
-            Statement of Interest\\
-            \vspace{5pt}
-            {\large\textbf{Simone Atzeni}}\\
-            \vspace{1.0\baselineskip}
-            \hrule
-            \vspace{0.5\baselineskip}
-            School of Computing, University of Utah,
-            e-mail: \href{mailto:simone@cs.utah.edu}{simone@cs.utah.edu},
-            mobile: +1 (801) 696-8373
-        \vspace{-1.5ex}
-        }
-\date{}
-\author{}
+% \title{%
+%         \vspace{-2\baselineskip}
+%             \normalsize
+%             Statement of Interest\\
+%             \vspace{5pt}
+%             {\large\textbf{Simone Atzeni}}\\
+%             \vspace{1.0\baselineskip}
+%             \hrule
+%             \vspace{0.5\baselineskip}
+%             School of Computing, University of Utah,
+%             e-mail: simone@cs.utah.edu,
+%             mobile: +1 (801) 696-8373
+%         \vspace{-1.5ex}
+%         }
+% \date{}
+% \author{}
 
-\hypersetup{%
-        pdfsubject={IPDPS16 PhD Forum Biographical Sketch of Simone Atzeni},
-        pdfauthor={Simone Atzeni},
-        pdftitle={IPDPS16 PhD Forum Biographical Sketch of Simone Atzeni},
-        pdfkeywords={}
-        }
+\title{\Large \textbf{\archer: Effectively Spotting Data Races in Large OpenMP Applications}}
+\author{Simone Atzeni, Ganesh Gopalakrishnan (Advisor), Zvonimir Rakamari\'c
+  (Co-Advisor)
+  %\{simone, ganesh, zvonimir\}@cs.utah.edu
+\\University of Utah}
+\date{}
+
+% \hypersetup{%
+%         pdfsubject={IPDPS16 PhD Forum Biographical Sketch of Simone Atzeni},
+%         pdfauthor={Simone Atzeni},
+%         pdftitle={IPDPS16 PhD Forum Biographical Sketch of Simone Atzeni},
+%         pdfkeywords={}
+%         }
 
 \newcommand{\ie}{i.e.\xspace}
 \newcommand{\eg}{e.g.\xspace}
@@ -121,11 +129,11 @@
 \begin{document}
 
 \maketitle
-\vspace{-4\baselineskip}
+%\vspace{-3\baselineskip}
 
-\vspace{-10pt}
+%\vspace{-20pt}
 \subsection{Bio Sketch}
-\vspace{-5pt}
+\vspace{-6pt}
 Simone Atzeni is currently a third--year Ph.D. student at the School of
 Computing, University of Utah.
 %
@@ -223,9 +231,9 @@ University of Rome ``La Sapienza'', Italy.
 %       OpenGL for graphic data presentations.
 %     \end{list2}
 
-\vspace{-5pt}
+\vspace{-10pt}
 \subsection{Current Research and Future Plans}
-\vspace{-5pt}
+\vspace{-6pt}
 My research interests include debugging methods for concurrent programming,
 with a particular focus on data-race detection techniques for large OpenMP
 applications.
@@ -254,9 +262,9 @@ Whilst \archer reduces the runtime overhead by roughly 25\%, we will keep
 pushing the boundaries of data-race detection to further reduce the
 overhead by an order of magnitude.
 
-\vspace{-5pt}
+\vspace{-10pt}
 \subsection{Objectives for participating in IPDPS Student Program}
-\vspace{-5pt}
+\vspace{-6pt}
 The IPDPS conference is an internationally recognized symposium for computer
 scientists to showcase their current research.
 %
@@ -275,16 +283,16 @@ Thus, this meeting will not only help lessen my scientific knowledge gap, but
 it will also help build a valuable portfolio of contacts, integral to
 developing my career within computer science.
 
-\vspace{-5pt}
+\vspace{-10pt}
 \subsection{Poster Proposal}
-\vspace{-5pt}
+\vspace{-6pt}
 This work is based on an accepted paper at IPDPS 2016.
 
-Title: \textbf{\archer: Effectively Spotting Data Races in Large OpenMP}
-Applications
+% Title: \textbf{\archer: Effectively Spotting Data Races in Large OpenMP}
+% Applications
 
-Authors: \textbf{Simone Atzeni}, Ganesh Gopalakrishnan (Advisor),
-Zvonimir Rakamari\'c (Co-Advisor) -- University of Utah
+% Authors: \textbf{Simone Atzeni}, Ganesh Gopalakrishnan (Advisor),
+% Zvonimir Rakamari\'c (Co-Advisor) -- University of Utah
 % \begin{itemize}
 % \item \textbf{Simone Atzeni} (Author), Ganesh Gopalakrishnan (Advisor), Zvonimir
 %   Rakamari\'c (Co-Advisor) --
